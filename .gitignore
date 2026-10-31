@@ -1,0 +1,17 @@
+# 手元だけに置く資料・データ・実験結果
+/local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 認証情報
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS
+.DS_Store
