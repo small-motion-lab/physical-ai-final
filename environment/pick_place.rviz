@@ -1,0 +1,53 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/RobotModel
+      Name: Gazebo robot state
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        Depth: 1
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 1
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Measured cube and task guides
+      Enabled: true
+      Topic:
+        Value: /pick_place/scene
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Depth: 10
+  Enabled: true
+  Global Options:
+    Background Color: 28; 39; 55
+    Fixed Frame: base_link
+    Frame Rate: 20
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Name: Current View
+      Distance: 0.95
+      Focal Point:
+        X: 0.07
+        Y: -0.01
+        Z: 0.15
+      Pitch: 0.5
+      Yaw: 0.9
+      Target Frame: base_link
+Window Geometry:
+  Width: 1280
+  Height: 690
+  X: 0
+  Y: 25
+  Displays:
+    collapsed: true

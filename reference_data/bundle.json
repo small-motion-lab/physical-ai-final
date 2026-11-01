@@ -1,0 +1,9 @@
+{
+  "file": "recorded_experiment.zip",
+  "sha256": "005361caf414eff02c8d3f8afabf65aacfe42a52b01b248978e3ae075620876d",
+  "bytes": 6259415,
+  "files": 104,
+  "source": "Own Gazebo records; no lecture PDFs, account credentials, or Git history",
+  "model_before_sha256": "20b20831312b5f3202f4b0d63c09a767404b43bbc75dbb51d606a14e92c4581f",
+  "model_after_sha256": "fb683669385a5a5c7c62f205ccc35d0ab41f591f25d94350532d51aa7dfe1e98"
+}

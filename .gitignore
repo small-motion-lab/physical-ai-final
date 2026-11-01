@@ -15,3 +15,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Crash dumps
+/core
+/core.[0-9]*
